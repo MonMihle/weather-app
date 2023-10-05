@@ -56,7 +56,9 @@ function handleSubmit(event) {
 function displayFarenheitTemperature(event) {
   event.preventDefault();
   let farenheitTemperature = (24 * 9) / 5 + 32;
-  alert(farenheitTemperature);
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = farenheitTemperature;
+  //alert(farenheitTemperature);
 }
 search("New York");
 
