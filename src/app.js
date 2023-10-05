@@ -53,8 +53,15 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
-
+function displayFarenheitTemperature(event) {
+  event.preventDefault();
+  let farenheitTemperature = (24 * 9) / 5 + 32;
+  alert(farenheitTemperature);
+}
 search("New York");
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
+let fahrenheitLink = document.querySelector("#fahrenheit - link");
+fahrenheitLink.addEventListener("click", displayFarenheitTemperature);
