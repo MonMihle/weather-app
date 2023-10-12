@@ -2,6 +2,8 @@ body {
   font-family: arial, sans-serif;
   background-color: lightblue;
   color: darkblue;
+  /*padding: 30px;*/
+  margin: 0;
 }
 
 h1 {
