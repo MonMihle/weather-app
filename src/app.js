@@ -30,7 +30,6 @@ function fomatDay(timestamp) {
 function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
-
   let forecastHTML = `<div class="row">`;
   days.forEach(function (forecastDay, index) {
     if (index < 6) {
@@ -57,6 +56,8 @@ function displayForecast(response) {
                     forecastDay.temp.min
                   )}°</span>
                 </div> 
+
+                
                 
             </div>`;
     }
@@ -68,8 +69,9 @@ function displayForecast(response) {
 function getForecast(coordinates) {
   console.log(coordinates);
   let apiKey = "513ab3bd0c19325a72d631c612752bba";
-  //api.openweathermap.org/data/2.5/onecall?llat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
-  https: console.log(apiUrl);
+  let apiUrl = `https//api.openweathermap.org/data/2.5/onecall?llat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
+
+  console.log(apiUrl);
   axios.get(apiUrl).then(displayForecast);
 }
 
