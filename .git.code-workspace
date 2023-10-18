@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"path": "../my-creative-work/.git"
+	},
+	{
+		"path": "../my-creative-work"
+	},
+	{
+		"path": "../my-weather-application"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../../MyDigitalSpaces"
+	},
+	{
+		"path": "../../you-weather"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "weather-app"
+  }
+}
