@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 .card {
-  width: 90%;
+  width: 100%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   margin: 100px auto;
@@ -45,14 +45,14 @@ li:first-letter {
 }
 
 .weather-app {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
   border: 1px solid #dadde1;
   padding: 20px;
   border-radius: 5px;
 }
 .weather-app-wrap {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
 }
 .overview {
