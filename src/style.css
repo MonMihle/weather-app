@@ -48,7 +48,7 @@ li:first-letter {
   max-width: 700px;
   margin: 30px auto;
   border: 1px solid #dadde1;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
 }
 .weather-app-wrap {
